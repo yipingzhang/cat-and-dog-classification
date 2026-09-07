@@ -22,6 +22,7 @@ Developed collaboratively with two groupmates during an overseas exchange progra
 > **Reproducibility note:** While exact accuracy values differ from the [project report](docs/project_report.pdf), this local reproduction reached the same overall conclusions.
 
 | Model | Test accuracy |
+| --- | ---: |
 | Custom CNN with Optuna-tuned hyperparameters | 80.75% |
 | Fine-tuned EfficientNet-B0 | 93.75% |
 
@@ -29,13 +30,13 @@ Developed collaboratively with two groupmates during an overseas exchange progra
 
 ### Training curves
 
-![Training curves](outputs/visualizations/training_curves.png)
+![Training curves](outputs/visualisations/training_curves.png)
 
 ### Confusion matrix
 
-![Confusion matrix](outputs/visualizations/confusion_matrix.png)
+![Confusion matrix](outputs/visualisations/confusion_matrix.png)
 
-Additional visualisations are available in [`outputs/visualizations`](outputs/visualizations).
+Additional visualisations are available in [`outputs/visualisations`](outputs/visualisations).
 
 ## Project structure
 
@@ -46,7 +47,7 @@ Additional visualisations are available in [`outputs/visualizations`](outputs/vi
 ├── docs/
 │   └── project_report.pdf       # Project report
 ├── outputs/
-│   └── visualizations/          # Generated figures
+│   └── visualisations/          # Generated figures
 ├── requirements.txt             # Python dependencies
 └── README.md
 ```
